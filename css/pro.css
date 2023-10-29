@@ -216,7 +216,7 @@ body {
 /* end header */
 /* start events */
 .events{
-  padding: 40px;
+  padding: 40px 0;
 }
 .events .impo{
   text-decoration: none;
@@ -260,7 +260,7 @@ font-size: 20px;
 /* end events */
 /* start footer */
 .footerr {
-  padding: 40px;
+  padding: 40px 0;
  /* background-image: url(../imags/footer.jpg);
  background-size: cover; */
  background-color: #00a7ce;
@@ -363,7 +363,7 @@ color: #fff;
 /* contact page */
 /* start contact */
 .cotus{
-  padding: 40px;
+  padding: 40px 0;
 }
 .cotus .m{
   font-size: 18px;
@@ -385,7 +385,7 @@ color: #fff;
 
 /* start footer */
 .footerr {
-  padding: 40px;
+  padding: 40px 0;
  /* background-image: url(../imags/footer.jpg);
  background-size: cover; */
  background-color: #00a7ce;
@@ -488,7 +488,7 @@ color: #fff;
 
 /* pro */
 .pro{
-    padding: 40px;
+    padding: 40px 0;
 
 }
 .nn{

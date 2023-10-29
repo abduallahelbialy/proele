@@ -140,7 +140,7 @@ body {
 }
 @media (max-width: 477px) {
   .header {
-    padding: 20px;
+    padding: 20px ;
   }
 
   h2 {
@@ -216,7 +216,7 @@ body {
 /* end header */
 /* start events */
 .events{
-  padding: 40px;
+  padding: 40px 0;
 }
 .events .impo{
   text-decoration: none;
@@ -260,9 +260,8 @@ font-size: 20px;
 /* end events */
 /* start footer */
 .footerr {
-  padding: 40px;
- /* background-image: url(../imags/footer.jpg);
- background-size: cover; */
+  padding: 40px 0;
+ 
  background-color: #00a7ce;
 }
 .footerr .foo{
@@ -363,7 +362,7 @@ color: #fff;
 /* contact page */
 /* start contact */
 .cotus{
-  padding: 40px;
+  padding: 40px 0;
 }
 .cotus .m{
   font-size: 18px;
@@ -385,9 +384,8 @@ color: #fff;
 
 /* start footer */
 .footerr {
-  padding: 40px;
- /* background-image: url(../imags/footer.jpg);
- background-size: cover; */
+  padding: 40px 0;
+ 
  background-color: #00a7ce;
 }
 .footerr .foo{
@@ -488,7 +486,7 @@ color: #fff;
 
 /* pro */
 .pro{
-    padding: 40px;
+    padding: 40px 0;
 
 }
 .nn{

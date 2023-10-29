@@ -218,7 +218,7 @@ body {
 /* end header */
 /* start about */
 .about {
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .about .show {
@@ -257,7 +257,7 @@ body {
 /* end services */
 /* start us */
 .us {
-  padding: 40px;
+  padding: 40px 0;
 }
 .us .box {
   background-color: #00a7ce;
@@ -284,7 +284,7 @@ body {
 /* end us */
 /* start our */
 .our {
-  padding: 40px;
+  padding: 40px 0;
   background-color: #00a7ce;
 }
 .our .oo {
@@ -324,7 +324,7 @@ body {
 /* end our */
 /* start events */
 .events{
-  padding: 40px;
+  padding: 40px 0;
 }
 .events .impo{
   text-decoration: none;
@@ -370,7 +370,7 @@ font-size: 20px;
 
 
 .say {
-  padding: 40px;
+  padding: 40px 0;
 }
 .say .infoo{
    width: 280px;
@@ -392,9 +392,7 @@ font-size: 20px;
 /* end say */
 /* start footer */
 .footerr {
-  padding: 40px;
- /* background-image: url(../imags/footer.jpg);
- background-size: cover; */
+  padding: 40px 0;
  background-color: #00a7ce;
 }
 .footerr .foo{
@@ -495,7 +493,7 @@ color: #fff;
 /* contact page */
 /* start contact */
 .cotus{
-  padding: 40px;
+  padding: 40px 0;
 }
 .cotus .m{
   font-size: 18px;
@@ -544,7 +542,7 @@ box-shadow: 20px 20px 34px rgb(0 0 0 /0.03);
 }
 /* *ourserf page */
 .serc{
-  padding: 40px;
+  padding: 40px 0;
 }
 .serc .uio .z{
   border-radius: 50%;
@@ -556,7 +554,7 @@ box-shadow: 20px 20px 34px rgb(0 0 0 /0.03);
 }
 
 .srebha{
-  padding: 40px;
+  padding: 40px 0;
 }
 .srebha .xz{
   display: flex;
@@ -597,7 +595,7 @@ box-shadow: 20px 20px 34px rgb(0 0 0 /0.03);
 }
 }
 .delvry{
-  padding: 40px;
+  padding: 40px 0;
 }
 .delvry .z{
   border-radius: 50%;
