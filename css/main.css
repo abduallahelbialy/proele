@@ -355,7 +355,26 @@ body {
     height: 200px;
    
 }
+
   
+}
+@media (max-width: 767px) {
+  
+   .abs-animate-img {
+    width: 205px;
+    height: 205px;
+    
+}
+.abs-animate {
+    width: 205px;
+    height: 205px;
+   
+}
+.abs-sm-animate {
+    width: 205px;
+    height: 205px;
+   
+}
 }
 /* end services */
 /* start us */
