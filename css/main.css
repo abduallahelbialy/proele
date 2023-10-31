@@ -233,27 +233,110 @@ body {
 .about .no {
   display: none;
 }
-.rod {
-  width: 190px;
-  height: 254px;
-  border-radius: 30px;
-  background: #212121;
-  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
-  float: right;
-}
-.rod .e {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 700;
-  margin: 10px;
-  padding: 5px;
-  width: 100px;
-  height: 100px;
+.abs-sm-animate {
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
-  text-align: center;
-  background: #00a7ce;
+  background-color: #00a7ce;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
 }
-
+.abs-inner {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  color: #fff;
+  background-color: #00a7ce;
+}
+.abs-animate-img {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.right-animate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 440px;
+}
+.abs-animate {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  border: 3px solid #00a7ce;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3 ease-in-out;
+}
+.clientss,
+.clientss-num {
+  font-size: 24px;
+  
+}
+.clientss-num {
+  font-weight: bold;
+}
+.abs-animate {
+  animation: divanimate 5s 0s infinite;
+}
+.abs-animate-img {
+  animation: imganimate 5s 0s infinite;
+}
+.abs-sm-animate {
+  animation: infoanimate 5s 0s infinite;
+}
+@keyframes divanimate {
+  0% {
+    top: 40%;
+  }
+  50% {
+    top: 50%;
+  }
+  100% {
+    top: 40%;
+  }
+}
+@keyframes imganimate {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 40%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes infoanimate {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 100px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.relative-parent {
+  position: relative;
+}
 /* end services */
 /* start us */
 .us {
