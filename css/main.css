@@ -138,6 +138,7 @@ body {
     display: none;
   }
 }
+
 @media (max-width: 477px) {
   .header {
     padding: 20px;
@@ -155,6 +156,7 @@ body {
   .rod {
     margin-top: 39px;
   }
+  
   
 }
 
@@ -336,6 +338,24 @@ body {
 }
 .relative-parent {
   position: relative;
+}
+@media (max-width:477px) {
+   .abs-animate-img {
+    width: 200px;
+    height: 200px;
+    
+}
+.abs-animate {
+    width: 200px;
+    height: 200px;
+   
+}
+.abs-sm-animate {
+    width: 200px;
+    height: 200px;
+   
+}
+  
 }
 /* end services */
 /* start us */
